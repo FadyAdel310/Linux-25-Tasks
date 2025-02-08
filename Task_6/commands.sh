@@ -10,7 +10,7 @@ sudo groupadd project_group
 sudo usermod -aG project_group alice
 sudo usermod -aG project_group bob
 # 4
-zip ./files.zip ./files
+zip -r ./files.zip ./files
 
 # 5
 sudo chown alice ./files.zip
